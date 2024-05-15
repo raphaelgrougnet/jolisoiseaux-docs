@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link
+      rel="shortcut icon"
+      href="images/lowpoly_1-removebg-preview.png"
+      type=""
+    />
+
+    <title>Jolis oiseaux</title>
+
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+    <!-- fonts style -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--owl slider stylesheet -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+
+    <!-- font awesome style -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="css/responsive.css" rel="stylesheet" />
+  </head>
+
+  <body class="sub_page">
+    <div class="hero_area">
+      <div class="hero_bg_box">
+        <div class="bg_img_box">
+          <img src="images/hero-bg.png" alt="" />
+        </div>
+      </div>
+
+      <!-- header section strats -->
+      <header class="header_section">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg custom_nav-container">
+            <a class="navbar-brand" href="index.html">
+              <span>Jolis oiseaux</span>
+            </a>
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class=""> </span>
+            </button>
+
+						<div
+							class="collapse navbar-collapse"
+							id="navbarSupportedContent"
+						>
+							<ul class="navbar-nav">
+								<li class="nav-item">
+									<a class="nav-link" href="index.html"
+										>Accueil</a
+									>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="about.html">
+										Analyse du projet choisi
+									</a>
+								</li>
+								<li class="nav-item active">
+									<a class="nav-link" href="proposition.html"
+										>Proposition</a
+									>
+									<span class="sr-only">(current)</span>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="materiel.html"
+										>Matériel</a
+									>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="logiciel.html"
+										>Logiciel</a
+									>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="experimentation.html">Expérimentation</a>
+								  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="montage.html">Montage</a>
+                  </li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</header>
+			<!-- end header section -->
+		</div>
+
+    <!-- service section -->
+
+    <section class="service_section layout_padding">
+      <div class="service_container">
+        <div class="container">
+          <div class="heading_container heading_center">
+            <div class="m-3">
+              <h2>Proposition</h2>
+
+              <p>
+                L'idée que nous proposons est la suivante. Un Raspberry Pi avec
+                un capteur Raspberry Pi caméra. Ce capteur prendre des photos et
+                des vidéos. Le dispositif serait installé dans la maison du
+                client, ce qui va éviter beaucoup de problèmes de stabilité,
+                maintenabilité et longévité. Il serait posé en face d'une
+                fenêtre, pour que le capteur puisse prendre des photos et des
+                vidéos de l'extérieur. La caméra aurait dans son champ de vision
+                la mangeoire à oiseaux. Un programme serait installé sur le
+                Raspberry Pi pour que la caméra prenne des photos lors de la
+                détection d'un oiseau. Les photos seraient ensuite envoyées sur
+                un serveur, pour que le client puisse les consulter à tout
+                moment sur un site web.
+              </p>
+            </div>
+
+            <div class="m-3">
+              <h2>
+                Comment la proposition va répondre aux défis et contraintes
+                identifiées ?
+              </h2>
+              <p>
+                La proposition va répondre à la majeure partie des défis et
+                contrainte. En mettant la caméra à l'intérieur, nous allons
+                réussir à éviter une grande partie des problèmes. La caméra ne
+                sera pas exposée aux changements de température de dehors, ce
+                qui va grandement augmenter sa durée de vie. Elle ne va pas non
+                plus être exposée à l'humidité, ce qui va aussi augmenter sa
+                durée de vie. Le fait de la mettre à l'intérieur va aussi nous
+                permettre des couts de maintenance et de protection contre
+                l'extérieur. Le risque de vol ou de vandalisme est aussi
+                grandement diminué.
+              </p>
+            </div>
+            <div class="m-3">
+              <h2>Interactions attendues (Amorce, déroulement, temps, …)</h2>
+              <p>
+                Pour commencer, le client doit cliquer sur le bouton de
+                démarrage et lancer le script python. Une fois le script lancé,
+                il doit positionner la caméra en face de la fenêtre, pour que la
+                caméra puisse prendre des photos de la mangeoire. Par la suite,
+                le client doit simplement attendre que des oiseaux viennent
+                manger. Lorsque des oiseaux viennent manger, la caméra prendra
+                des photos et les enverra sur un serveur. Le client, lui, n'a
+                pas besoin de faire quoi que ce soit. Il peut simplement
+                continuer sa journée et consulter les photos sur le site web il
+                le souhaite. La caméra se fermera seule selon l'horaire que le
+                client aura déterminé. Le client devrait s'assurer que le
+                système est à jour et que le Raspberry Pi est bien connecté à
+                internet. Nous allons lui expliquer comment tout cela fonctionne
+                pour qu'il puisse le faire par lui-même.
+              </p>
+            </div>
+            <div class="m-3">
+              <h2>Schématisation matérielle précise</h2>
+              <img
+                class="w-50"
+                src="images/SchemaMateriel.png"
+                alt="schéma matériel"
+              />
+            </div>
+            <div class="m-3">
+              <h2>Schématisation logicielle précise</h2>
+              <img
+                class="w-50"
+                src="images/SchémaLogicielle.png"
+                alt="schéma logiciel"
+              />
+            </div>
+            <div class="m-3">
+              <h2>Justification du choix des technologies</h2>
+              <p>
+                Nous allons utiliser l'hébergeur
+                <a target="_blank" href="https://www.pythonanywhere.com"
+                  ><i>PythonAnywhere</i></a
+                >. Cet hébergeur offre un hébergement gratuit de base de données
+                SQL, ce qui nous permettra de stocker les photos prises par la
+                caméra. Nous avons auparavant utilisé ce service donc nous
+                savons comment il fonctionne, ce qui nous donne un avantage
+                conséquent. Pour ce qui est du Raspberry Pi, nous avons choisi
+                ce dispositif, car il est petit, peu couteux. Il est aussi très
+                facile à programmer et à utiliser, ce qui est un point positif
+                si jamais le client veut interagir avec le dispositif.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end service section -->
+
+    <!-- footer section -->
+    <footer class="footer_section">
+      <div class="container">
+        <p>
+          Copyright &copy; Raphaël Grougnet, David Girard, Ziad Affan, Alexandre
+          Vachon, Étienne Langlois
+        </p>
+      </div>
+    </footer>
+    <!-- footer section -->
+
+    <!-- jQery -->
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <!-- popper js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <!-- bootstrap js -->
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <!-- owl slider -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    ></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="js/custom.js"></script>
+    <!-- Google Map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
+    <!-- End Google Map -->
+  </body>
+</html>
